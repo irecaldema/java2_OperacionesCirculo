@@ -1,10 +1,10 @@
 import java.util.Scanner;
 
+public class OperacionesCirculo 
+{
 
-public class Main {
-
-public static void main (String args[]) {
-
+public static void main (String args[]) 
+	{
  int radio;
  double resultado;
  Circulo operaciones = new Circulo();
@@ -17,9 +17,9 @@ public static void main (String args[]) {
  System.out.println("\nLa circunferencia del circulo es: " + resultado);
 
  resultado= operaciones.area(radio);
- System.out.println("\nEl area del circulo es: " + resultadoSuma);
+ System.out.println("\nEl area del circulo es: " + resultado);
 
 
  System.out.println("\n\nEGUN ONA IZAN!!\n");
-}
+	}
 }
