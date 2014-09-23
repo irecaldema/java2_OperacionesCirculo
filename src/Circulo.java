@@ -1,7 +1,7 @@
 
 public class Circulo {
 
-public double circu (int radio) 
+public double circu (double radio) 
  {
 
 double result  = 2*3.1416*radio;
@@ -9,7 +9,7 @@ return result;
 
  }
 
- public double area (int radio) 
+ public double area (double radio) 
  {
 
 double result = 3.1416*radio*radio;
