@@ -1,19 +1,23 @@
-
 public class Circulo {
 
-public double circu (double radio) 
+	private double radio;
+	
+public void setRadio(double radio) 
  {
-
-double result  = 2*3.1416*radio;
-return result;
-
+	this.radio = radio;
+ }
+ 
+  public double getArea () 
+ {
+	double result = 3.1416*radio*radio;
+	return result;
+ }
+ 
+ public double getCircu () 
+ {
+	double result  = 2*3.1416*radio;
+	return result;
  }
 
- public double area (double radio) 
- {
 
-double result = 3.1416*radio*radio;
-return result;
-
- }
 }
