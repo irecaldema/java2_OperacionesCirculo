@@ -5,7 +5,7 @@ public class OperacionesCirculo
 
 public static void main (String args[]) 
 	{
- double radio, resultado;
+ double radio;
  Circulo operaciones = new Circulo();
  
  Scanner sc = new Scanner(System.in);
@@ -14,10 +14,10 @@ public static void main (String args[])
 
  //resultado = operaciones.area(radio);
  operaciones.setRadio(radio);
- System.out.println("\nEl area del circulo es: " + getArea());
+ System.out.println("\nEl area del circulo es: " + operaciones.getArea());
 
- resultado = operaciones.circu(radio); 
- System.out.println("\nLa circunferencia del circulo es: " + getCircu());
+ //resultado = operaciones.circu(radio); 
+ System.out.println("\nLa circunferencia del circulo es: " + operaciones.getCircu());
 
  System.out.println("\n\nEGUN ONA IZAN!!\n");
 	}
