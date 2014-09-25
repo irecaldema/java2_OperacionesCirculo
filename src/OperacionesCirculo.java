@@ -11,9 +11,9 @@ public static void main (String args[])
  Scanner sc = new Scanner(System.in);
  System.out.print("\ningresa el radio del circulo a analizar: ");
  radio = sc.nextDouble();
+ operaciones.setRadio(radio);
 
  //resultado = operaciones.area(radio);
- operaciones.setRadio(radio);
  System.out.println("\nEl area del circulo es: " + operaciones.getArea());
 
  //resultado = operaciones.circu(radio); 
