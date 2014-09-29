@@ -14,10 +14,10 @@ public static void main (String args[])
  operaciones.setRadio(radio);
 
  //resultado = operaciones.area(radio);
- System.out.println("\nEl area del circulo es: " + operaciones.getArea());
+ System.out.println("\nEl area del circulo es: " + operaciones.Area());
 
  //resultado = operaciones.circu(radio); 
- System.out.println("\nLa circunferencia del circulo es: " + operaciones.getCircu());
+ System.out.println("\nLa circunferencia del circulo es: " + operaciones.Circu());
 
  System.out.println("\n\nEGUN ONA IZAN!!\n");
 	}

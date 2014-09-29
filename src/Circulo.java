@@ -9,17 +9,17 @@ public class Circulo {
 public void setRadio(double radio) 
  {
 	this.radio = radio;
-	area = NUM_PI*radio*radio;
-	circu = 2*NUM_PI*radio;
  }
  
-public double getArea() 
+public double Area() 
  {	
+	area = NUM_PI*radio*radio;
 	return area;
  }
  
-public double getCircu() 
+public double Circu() 
  {	
+	circu = 2*NUM_PI*radio;
 	return circu;
  }
 }
