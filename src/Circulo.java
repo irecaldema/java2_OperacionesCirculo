@@ -1,10 +1,17 @@
+
 public class Circulo {
 
 	static final double NUM_PI =3.1416;
 
-	private double radio = 0;
-	private double area = 0;
-	private double circu = 0;
+	private double radio;
+	private double area;
+	private double circu;
+	
+	public Circulo(double radio){
+	setRadio(radio);
+	area=0;
+	circu=0;
+}
 	
 public void setRadio(double radio) 
  {
