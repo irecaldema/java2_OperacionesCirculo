@@ -7,11 +7,12 @@ public class Circulo {
 	private double area;
 	private double circu;
 	
-	public Circulo(double radio){
-	setRadio(radio);
-	area=0;
-	circu=0;
-}
+	public Circulo(double radio)
+	{
+	 setRadio(radio);
+	 area=0;
+	 circu=0;
+ }
 	
 public void setRadio(double radio) 
  {
