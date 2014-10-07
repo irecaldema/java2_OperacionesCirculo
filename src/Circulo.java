@@ -3,9 +3,7 @@ public class Circulo {
 
 	static final double NUM_PI =3.1416;
 
-	private double radio;
-	private double area;
-	private double circu;
+	private double radio, area, circu;
 	
 	public Circulo(double radio)
  {
