@@ -1,4 +1,7 @@
-
+/*
+export JAVA_HOME=/usr/local/jdk1.8.0_20/
+export PATH=$PATH:$JAVA_HOME/bin
+*/
 public class Circulo {
 
 	static final double NUM_PI =3.1416;
